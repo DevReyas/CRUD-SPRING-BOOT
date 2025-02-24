@@ -1,0 +1,48 @@
+a {
+	font-size: 25px;
+	color: red;
+}
+
+body {
+	background-color: rgb(4, 182, 246);
+	color: red;
+	text-align: center;
+}
+
+label {
+	display: inline-block;
+	width: 200px;
+	margin: 5px;
+	text-align: left;
+}
+
+input[type=text], input[type=email], input[type=password], select {
+	display: inline-block;
+	width: 200px;
+}
+
+input[type=radio] {
+	margin-left: 45px;
+}
+
+input[type=checkbox] {
+	margin-right: 190px;
+}
+
+button {
+	padding: 5px;
+	 margin:  10px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+img {
+	margin-top: 150px; 
+	width : 350px;
+	height: 350px;
+	width: 350px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"
+xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert Data</title>
+<link th:href="@{/style.css}" rel="stylesheet"/>
+</head>
+<body>
+<h1>Deleting Record page</h1>
+<div>
+<button><a th:href="@{/reg}">Insert</a></button>&nbsp;
+<button><a th:href="@{/details}">View</a></button>&nbsp;
+<button><a th:href="@{/delete}">Delete</a></button></div>
+<form th:role="form" th:method="GET" th:action="@{delete1}" th:object="${data}">
+<label>Name</label>
+<input type="text" th:field="*{name}"/><br>
+<button type="submit">Delete</button>
+</form>
+</body><br><br><br><br><br><br><br><br><br><br>
+<footer>www.systechgroup.in</footer>
+</html>
